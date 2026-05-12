@@ -1,0 +1,34 @@
+{
+    "ui:order": [
+      "ashost",
+      "client",
+      "sysnr",
+      "user",
+      "passwd"
+    ],
+  
+    "ashost": {
+      "ui:placeholder": "hec**.biz",
+      "ui:help": "RFC host name"
+    },
+  
+    "client": {
+      "ui:placeholder": "000",
+      "ui:help": "RFC Client id"
+    },
+  
+    "sysnr": {
+      "ui:placeholder": "00",
+      "ui:help": "RFC sysnr id"
+    },
+  
+    "user": {
+      "ui:placeholder": "SENTINEL",
+      "ui:help": "RFC username"
+    },
+  
+    "passwd": {
+      "ui:placeholder": "password",
+      "ui:help": "RFC password"
+    }
+  }

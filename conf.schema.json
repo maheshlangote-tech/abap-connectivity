@@ -1,0 +1,40 @@
+{
+    "title": "Sentinal ABAP",
+    "type": "object",
+    "required": [
+      "ashost",
+      "client",
+      "sysnr",
+      "user",
+      "passwd"
+    ],
+    "properties": {
+  
+      "ashost": {
+        "type": "string",
+        "title": "RFC host name"
+      },
+  
+      "client": {
+        "type": "string",
+        "title": "RFC Client id"
+      },
+  
+      "sysnr": {
+        "type": "string",
+        "title": "RFC Sysnr id"
+      },
+  
+      "user": {
+        "type": "string",
+        "title": "RFC Connection username",
+        "x-secret": true
+      },
+  
+      "passwd": {
+        "type": "string",
+        "title": "RFC Password",
+        "x-secret": true
+      }
+    }
+  }
